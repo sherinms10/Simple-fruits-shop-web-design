@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+}
+section{
+    background-color: white;
+    width: 40%;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    margin-left: 5%;
+}
+.header h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header i{
+    margin: 8% 0 0 73%;
+    font-size: 24px;
+}
+.card img{
+    height: 15vh;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 70px;
+    border: none;
+    background-color: #dbe0e6;
+}
+.border{
+    padding: 10px;
+    margin-left: 18%;
+    border: 3px solid #acc80f;
+    border-radius: 90px;
+    display: inline-block;
+}
+.card{
+    padding: 45px;
+    width: 15%;
+    height: 35vh;
+    border: 1px solid grey;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: white;
+    margin-left: 5%;
+    box-shadow: -3px 45px 35px #888888;
+    position: absolute;
+    top: 23%;
+    left: 2%;
+}
+.card h1{
+    margin-left: 25%;
+    font-size: 20px;
+}
+.card h3{
+    margin: -7% 0 0 33%;
+}
+.icon{
+    position: absolute;
+    top: 7%;
+    left: 86%;
+}
+.fa-check{
+    color: white;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 50px;
+    border: none;
+    background-color: #36b46e;
+    position: absolute;
+    top: 34%;
+    left: 69%;
+}
+.card1 img{
+    height: 15vh;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 70px;
+    border: none;
+    background-color: #dbe0e6;
+}
+.borderr{
+    padding: 10px;
+    margin-left: 10%;
+    border: 2px solid lightslategrey;
+    border-radius: 90px;
+    display: inline-block;
+}
+.card1{
+    padding: 45px;
+    width: 25%;
+    height: 30vh;
+    border: 1px solid grey;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 10%;
+    /* box-shadow: -3px 45px 35px #888888; */
+}
+#container{
+    display: flex;
+}
+.card2 img{
+    height: 15vh;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 70px;
+    border: none;
+    background-color: #dbe0e6;
+}
+.borderrr{
+    padding: 10px;
+    margin-left: 10%;
+    border: 2px solid lightslategray;
+    border-radius: 90px;
+    display: inline-block;
+}
+.card2{
+    padding: 45px;
+    width: 25%;
+    height: 30vh;
+    border: 1px solid grey;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: white;
+    margin-left: -5%;
+    margin-top: 10%;
+    /* box-shadow: -3px 45px 35px #888888; */
+}
+.dot{
+    font-size: 60px;
+    color: red;
+    filter: blur(2px);
+    margin: -2% 0 0 44% ;
+}
+.dott{
+    font-size: 60px;
+    color: #acc80f;
+    filter: blur(2px);
+    margin: -30% 0 0 50% ;
+}
+.fa-ellipsis{
+    margin: 10% 0 0 40%;
+    color: grey;
+    font-size: 20px;
+    filter: blur(1.5px);
+}
+.box{
+    display: flex;
+    border: 2px solid #acc80f;
+    border-radius: 30px;
+    margin: 5% 45% 0 30%;
+    box-shadow: -3px 10px 20px #acc80f;
+}
+.box h4{
+    margin-left: 10%;
+}
+.fa-apple-whole{
+    margin: 15% 0 0 10%;
+}
+.fa-circle{
+    margin: 13% 0 0 7%;
+    font-size: 24px;
+    color: #acc80f;
+}
+#container1{
+    width: 60%;
+    height: 100vh;
+    background-color: #acc80f;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.search{
+    font-size: 24px;
+    color: white;
+    margin: 4% 0 0 95%;
+}
+.apple img{
+    height: 35vh;
+    z-index: 99;
+    position: absolute;
+    top: 13%;
+    left: 27%;
+    /* transform: rotate(-20deg); */
+    /* box-shadow: -3px 45px 35px #888888; */
+}
+.apple img{
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 170px;
+    padding: 35px;
+} 
+.cir i{
+    color: white;
+    z-index: 100;
+    position: absolute;
+    top: 15%;
+    left: 24%;
+}
+.one {
+    color: #acc80f;
+    z-index: 100;
+    position: absolute;
+    top: 32.7%;
+    left: 31.7%;
+}
+#container1 h2{
+    color: white;
+    z-index: 5;
+    position: absolute;
+    top: 12%;
+    left: 51%;
+}
+#container1 h1{
+    color: white;
+    font-size: 110px;
+    letter-spacing: -8px;
+    z-index: 5;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+}
+#container1 h1 span{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+}
+#container1 h3{
+    color: white;
+    font-size: 50px;
+    z-index: 5;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+}
+#container1 .span{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+}
+.circle i{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 28%;
+    left: 51%;
+}
+.content{
+    display: flex;
+    margin-top: 40%;
+}
+.content1{
+    margin: 0 50% 0 5%;
+}
+.content ul{
+    margin: 55% 0 0 -210%;
+    color: grey;
+    font-size: 15px;
+}
+.content li{
+    margin-top: 5px;
+}
+.content1 h4{
+    color: white;
+    font-size: 20px;
+}
+.content1 p{
+    margin-top: -5%;
+    color: grey;
+}
+#footer{
+    display: flex;
+}
+.price h4{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    bottom: -7%;
+    left: 10%;
+}
+.cart{
+    margin-top: -0.5%;
+    margin-left: 49.96%;
+}
+.cart button{
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    padding: 40px;
+    width:30vw;
+}
